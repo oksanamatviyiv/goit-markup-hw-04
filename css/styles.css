@@ -160,7 +160,9 @@ margin-right: 10px;
 background-image: url(../images/envelope.svg);
 background-size: contain;
 }
-
+.mail, .tel::before:hover {
+  fill:var(--accent-color)
+}
   .tel::before {
   content: "";
   display: inline-block;
@@ -503,10 +505,13 @@ rgba(175, 177, 184, 1);
   align-items: center;
   justify-content: center;
 }
-.icon-clients, .icon-logo:hover {
+.icon-logo:hover {
   fill: var(--accent-color);
+}
+.icon-clients:hover {
   border: 1px solid var(--accent-color);
 }
+
 .icon-logo {
   width: 106px;
   height: 60px;
