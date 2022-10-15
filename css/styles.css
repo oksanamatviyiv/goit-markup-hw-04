@@ -486,8 +486,9 @@ gap: 30px
 .client {
 
 }
-.icon-client {
+.icon-client, .icon-clients {
   width: calc((100% - 150px) / 6);
+  width: 170px;
   height: 92px;
   background-position: center;
   background-repeat: no-repeat;
