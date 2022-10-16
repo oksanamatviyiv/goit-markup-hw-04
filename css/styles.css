@@ -507,7 +507,8 @@ cursor: pointer;
 
 .clients {
 display: flex;
-gap: 30px
+gap: 30px;
+height: 92px;
 }
 
 .client {
@@ -520,12 +521,11 @@ gap: 30px
   background-repeat: no-repeat;
 
 }
-.icon-client {
-  height: 100%;
+.icon-clients {
+  display: flex;
   border: 1px solid
 rgba(175, 177, 184, 1);
   border-radius: 4px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -534,22 +534,18 @@ rgba(175, 177, 184, 1);
   fill: var(--accent-color);
   border-color: transparent
 }
-.icon-client:hover,
-.icon-client:focus {
+.icon-clients:hover,
+.icon-clients:focus {
   border-color: var(--accent-color);
 }
 
 .icon-logo {
-  display: flex;
+
+
   width: 106px;
   height: 60px;
   fill:rgba(175, 177, 184, 1);
-  border: 7px transparent;
-  margin: 10 auto 5;
 }
-.link-logo {
-
-} 
 /* ----------------------------------FOOTER------------------------------- */
 .section-footer {
 
