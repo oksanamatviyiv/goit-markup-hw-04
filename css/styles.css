@@ -543,6 +543,9 @@ rgba(175, 177, 184, 1);
   height: 92px;
 color: rgba(175, 177, 184, 1);
 }
+.link-logo {
+  background-position: center;
+}
 
 /* ----------------------------------FOOTER------------------------------- */
 .section-footer {
