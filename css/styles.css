@@ -529,9 +529,10 @@ rgba(175, 177, 184, 1);
   align-items: center;
   justify-content: center;
 }
-.icon-logo, .link-logo:hover,
-.icon-logo, .link-logo:focus {
+.icon-logo:hover,
+.icon-logo:focus {
   fill: var(--accent-color);
+  border-color: transparent
 }
 .icon-client:hover,
 .icon-client:focus {
@@ -542,13 +543,9 @@ rgba(175, 177, 184, 1);
   width: 106px;
   height: 60px;
   fill:rgba(175, 177, 184, 1);
-  align-items: center;
-  justify-content: center;
 }
 .link-logo {
-  display: block;
-  width: 170px;
-  height: 92px;
+
 } 
 /* ----------------------------------FOOTER------------------------------- */
 .section-footer {
