@@ -540,9 +540,12 @@ rgba(175, 177, 184, 1);
 }
 
 .icon-logo {
+  display: flex;
   width: 106px;
   height: 60px;
   fill:rgba(175, 177, 184, 1);
+  border: 7px transparent;
+  margin: 10 auto 5;
 }
 .link-logo {
 
