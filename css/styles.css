@@ -541,12 +541,14 @@ height: 92px;
 
 .icon-logo {
   height: 92px;
-color: rgba(175, 177, 184, 1);
+fill: rgba(175, 177, 184, 1);
 }
 .link-logo {
   background-position: center;
 }
-
+use {
+background-position: center;
+}
 /* ----------------------------------FOOTER------------------------------- */
 .section-footer {
 
