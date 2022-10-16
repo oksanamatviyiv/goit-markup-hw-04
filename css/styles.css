@@ -502,7 +502,6 @@ cursor: pointer;
 .section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  
 }
 
 .clients {
@@ -511,7 +510,6 @@ gap: 30px;
 height: 92px;
 }
 
-
 .icon-client {
   width: 170px;
   height: 92px;
@@ -519,7 +517,7 @@ height: 92px;
   rgba(175, 177, 184, 1);
   border-radius: 4px;
 }
-.icon-clients, .icon-logo, .link-logo{
+.icon-clients, .icon-logo, .link-logo {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -531,7 +529,7 @@ height: 92px;
 
 .icon-logo:hover,
 .icon-logo:focus {
-  fill: var(--accent-color);
+  color: var(--accent-color);
   border-color: transparent
 }
 .icon-client:hover,
