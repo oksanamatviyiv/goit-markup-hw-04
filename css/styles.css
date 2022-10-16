@@ -514,28 +514,28 @@ height: 92px;
 .client {
 
 }
-.icon-client, .icon-clients {
+.icon-client {
   width: 170px;
   height: 92px;
   background-position: center;
   background-repeat: no-repeat;
-
+  border: 1px solid
+  rgba(175, 177, 184, 1);
+  border-radius: 4px;
 }
+
 .icon-clients, .icon-logo {
   display: flex;
-  border: 1px solid
-rgba(175, 177, 184, 1);
   color:rgba(175, 177, 184, 1);
-  border-radius: 4px;
-  background-position: center;
 }
+
 .icon-logo:hover,
 .icon-logo:focus {
   fill: var(--accent-color);
   border-color: transparent
 }
-.icon-clients:hover,
-.icon-clients:focus {
+.icon-client:hover,
+.icon-client:focus {
   border-color: var(--accent-color);
 }
 
