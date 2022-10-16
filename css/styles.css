@@ -540,14 +540,16 @@ height: 92px;
 }
 
 .icon-logo {
-  height: 92px;
+ align-items: center;
 fill: rgba(175, 177, 184, 1);
 }
 .link-logo {
-  background-position: center;
+  display: flex;
+  align-items: center;
 }
 use {
-background-position: center;
+  display: flexbox;
+  align-items: center;
 }
 /* ----------------------------------FOOTER------------------------------- */
 .section-footer {
