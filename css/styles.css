@@ -525,9 +525,9 @@ height: 92px;
   display: flex;
   border: 1px solid
 rgba(175, 177, 184, 1);
+  color:rgba(175, 177, 184, 1);
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
+  background-position: center;
 }
 .icon-logo:hover,
 .icon-logo:focus {
