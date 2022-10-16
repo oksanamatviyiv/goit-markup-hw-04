@@ -540,9 +540,8 @@ rgba(175, 177, 184, 1);
 }
 
 .icon-logo {
-width: 106px;
-height: 60px;
-border: 16px transparent;
+  height: 92px;
+color: rgba(175, 177, 184, 1);
 }
 
 /* ----------------------------------FOOTER------------------------------- */
