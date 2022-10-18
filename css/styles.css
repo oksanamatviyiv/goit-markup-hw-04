@@ -434,28 +434,58 @@ cursor: pointer;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
+/* ---------------------------- */
+.card-links {
+padding-top: 16px;
+padding-bottom: 30px;
+}
+
+.soc-lists, .soc-link {
+  display: flex;
+  height: 44px;
+  gap: 10px;
+  margin-left: 30px;
+}
 .soc-list {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 44px;
   width: 44px; 
-  background-color: #44454E;
-  gap: 10px;
+  background-color:var(--primary-white-color);
   border-radius: 50%;
+ fill:  #AFB1B8;
 }
 
-.soc-item {
-  display: block;
 
+
+
+
+.soc-item {
+  display: flex; 
+    justify-content: center;
+  align-items: center;
+  height: 20px;
 }
 
 .soc-link {
-  width: 100%;
+  display: flex;
+  height: 44px;
+  gap: 10px;
+  margin-left: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+  width: 100%;
 }
 
-
+.soc-list:hover,
+.isoc-list:focus {
+  background-color: var(--accent-color);  
+  fill: var(--primary-white-color);
+}
 
 
 /* ------------------CLIENTS-------------------- */
@@ -476,6 +506,8 @@ gap: 30px;
   width: 170px;
   height: 92px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-clients {
@@ -497,8 +529,8 @@ gap: 30px;
   align-items: center;
   fill:   rgba(175, 177, 184, 1);
   height: 100%;
-  border-style:hidden ;
-  border-width: 170px;
+  width: 100%;
+  margin-left: 30px;
 }
 
 .icon-clients:hover,
